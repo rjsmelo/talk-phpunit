@@ -1,0 +1,21 @@
+{
+    "name": "rmelo/talk-phplx-phpunit",
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "authors": [
+        {
+            "name": "Ricardo Melo",
+            "email": "ricardo.melo@dri.pt"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-0": {
+            "Phplx":        "src/",
+            "Phplx\\Tests": "tests/"
+        }
+    }
+}

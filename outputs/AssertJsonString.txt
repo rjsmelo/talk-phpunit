@@ -1,0 +1,39 @@
+PHPUnit 3.7.28 by Sebastian Bergmann.
+
+Configuration read from /home/rmelo/work/rjsmelo_github/talk-phplx-phpunit/phpunit.xml
+
+FF
+
+Time: 27 ms, Memory: 3.25Mb
+
+There were 2 failures:
+
+1) JsonStringTest::testEquals
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'{"someKey":"some thing","otherKey":"other thing"}'
++'{"someKey":"some value","otherKey":"other thing"}'
+
+/home/rmelo/work/rjsmelo_github/talk-phplx-phpunit/tests/Assertions/JsonStringTest.php:10
+/usr/share/pear/PHPUnit/TextUI/Command.php:176
+/usr/share/pear/PHPUnit/TextUI/Command.php:129
+
+2) JsonStringTest::testJsonString
+Failed asserting that two objects are equal.
+--- Expected
++++ Actual
+@@ @@
+ stdClass Object (
+-    'someKey' => 'some thing'
++    'someKey' => 'some value'
+     'otherKey' => 'other thing'
+ )
+
+/home/rmelo/work/rjsmelo_github/talk-phplx-phpunit/tests/Assertions/JsonStringTest.php:15
+/usr/share/pear/PHPUnit/TextUI/Command.php:176
+/usr/share/pear/PHPUnit/TextUI/Command.php:129
+
+FAILURES!
+Tests: 2, Assertions: 4, Failures: 2.

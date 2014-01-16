@@ -1,0 +1,26 @@
+PHPUnit 3.7.28 by Sebastian Bergmann.
+
+Configuration read from /home/rmelo/work/rjsmelo_github/talk-phplx-phpunit/phpunit.xml
+
+FF
+
+Time: 24 ms, Memory: 3.00Mb
+
+There were 2 failures:
+
+1) InstanceOfTest::testTrue
+Failed asserting that false is true.
+
+/home/rmelo/work/rjsmelo_github/talk-phplx-phpunit/tests/Assertions/InstanceOfTest.php:8
+/usr/share/pear/PHPUnit/TextUI/Command.php:176
+/usr/share/pear/PHPUnit/TextUI/Command.php:129
+
+2) InstanceOfTest::testInstanceOf
+Failed asserting that stdClass Object () is an instance of class "\Phplx\HelloWorld".
+
+/home/rmelo/work/rjsmelo_github/talk-phplx-phpunit/tests/Assertions/InstanceOfTest.php:13
+/usr/share/pear/PHPUnit/TextUI/Command.php:176
+/usr/share/pear/PHPUnit/TextUI/Command.php:129
+
+FAILURES!
+Tests: 2, Assertions: 2, Failures: 2.
